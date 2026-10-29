@@ -54,7 +54,8 @@ VOXEN Streamlit UI (displays results)
 
 ## Project Structure
 
-voice-agent/
+```
+VOXEN/
 ├── app.py            # Streamlit UI — start here
 ├── stt.py            # Handles audio transcription
 ├── intent.py         # Classifies what the user wants
@@ -63,8 +64,7 @@ voice-agent/
 ├── output/           # Everything generated goes here
 ├── requirements.txt  # Dependencies
 └── README.md
-
----
+```
 
 ## Getting it running
 
@@ -162,7 +162,7 @@ way it accidentally writes somewhere it shouldn't.
 ## Everything else it does
 
 - Upload audio files or record directly from the mic
-- Transcribes using Whisper Large V3 (accurate even with background noise)
+- Transcribes using Whisper Large V3
 - Classifies intent with Llama 3.3 70B
 - Generates working code and saves it automatically
 - Keeps a session log with success/failure status for every request
