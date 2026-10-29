@@ -1,4 +1,4 @@
-# VOXEN — Voice-Controlled Local AI Agent
+# VOXEN — Voice-Controlled AI Agent
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Streamlit](https://img.shields.io/badge/UI-Streamlit-red)
