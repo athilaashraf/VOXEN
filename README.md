@@ -14,7 +14,10 @@ step of what happened.
 
 ---
 
+
 ## Demo
+
+[![VOXEN demo video](https://img.youtube.com/vi/gQPRK--LxEM/hqdefault.jpg)](https://youtu.be/gQPRK--LxEM?si=1jGS7CIPWfWqeIa4)
 
 Upload an audio file or hit record → VOXEN transcribes what you said,
 detects your intent, and executes the action. Results show up instantly
