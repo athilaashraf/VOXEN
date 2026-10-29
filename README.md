@@ -69,13 +69,13 @@ voice-agent/
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/adhilaashraf/voice-agent.git
-cd voice-agent
+git clone https://github.com/athilaashraf/VOXEN.git
+cd VOXEN
 ```
 
 ### 2. Install dependencies
 ```bash
-pip install streamlit groq scipy numpy python-dotenv streamlit-audiorecorder
+pip install -r requirements.txt
 ```
 
 ### 3. Set up your API key
