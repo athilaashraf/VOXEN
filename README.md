@@ -24,7 +24,7 @@ detects your intent, and executes the action. Results show up instantly
 in the UI along with the full session log.
 
 ## How It Works
----
+<pre>
 Audio Input (Upload / Microphone)
         ↓
 Speech-to-Text (Groq Whisper API)
@@ -38,8 +38,7 @@ Tool Execution Engine
    └── General Chat → returns answer
         ↓
 VOXEN Streamlit UI (displays results)
-
----
+</pre>
 
 
 ## What it can do
