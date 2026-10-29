@@ -23,25 +23,24 @@ Upload an audio file or hit record → VOXEN transcribes what you said,
 detects your intent, and executes the action. Results show up instantly
 in the UI along with the full session log.
 
+## How It Works
 ---
-
-## How it works
-
 Audio Input (Upload / Microphone)
-↓
+        ↓
 Speech-to-Text (Groq Whisper API)
-↓
+        ↓
 Intent Detection (Groq Llama 3.3)
-↓
+        ↓
 Tool Execution Engine
-├── Write Code   → saves to output/
-├── Create File  → saves to output/
-├── Summarize    → returns summary
-└── General Chat → returns answer
-↓
+   ├── Write Code   → saves to output/
+   ├── Create File  → saves to output/
+   ├── Summarize    → returns summary
+   └── General Chat → returns answer
+        ↓
 VOXEN Streamlit UI (displays results)
 
 ---
+
 
 ## What it can do
 
